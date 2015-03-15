@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.coding.bizarre.brainybeta.OrganizeActivity"
+    android:background="@drawable/organize_fondo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:src="@drawable/organize_titulojuego2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ImageWord"
+            android:minHeight="180dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/respuestatexto"
+                android:id="@+id/AnswerLayout"
+                android:layout_gravity="center_horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="63dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/ButtonLayout1">
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="New Button"
+                    android:onClick="Button1click"
+                    android:id="@+id/button6" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="New Button"
+                    android:onClick="Button2click"
+                    android:id="@+id/button7" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="New Button"
+                    android:onClick="Button3click"
+                    android:id="@+id/button8" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="New Button"
+                    android:onClick="Button4click"
+                    android:id="@+id/button9" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="New Button"
+                    android:onClick="Button5click"
+                    android:id="@+id/button10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/ButtonLayout2">
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="New Button"
+                    android:onClick="Button6click"
+                    android:id="@+id/button11" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="New Button"
+                    android:onClick="Button7click"
+                    android:id="@+id/button12" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="New Button"
+                    android:onClick="Button8click"
+                    android:id="@+id/button13" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="New Button"
+                    android:onClick="Button9click"
+                    android:id="@+id/button14" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:text="New Button"
+                    android:onClick="Button10click"
+                    android:id="@+id/button15" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

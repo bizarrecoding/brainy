@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BrainyBeta</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tie_in">Tie In</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_organize">Organize</string>
+    <string name="title_activity_guess">Guess</string>
+    <string name="title_activity_game_over">Game Over</string>
+
+</resources>
